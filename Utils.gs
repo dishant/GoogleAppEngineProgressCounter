@@ -72,7 +72,7 @@ function cleanDB()
 
 function getTimeZone()
 {
-  return "IST"; 
+  return "PDT"; 
 }
 
 
