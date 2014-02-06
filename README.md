@@ -7,10 +7,10 @@ Setup: We assign labels to each person in following fashion.
 
 Labels:
 
-Team A                  <---- Label\\
-Team A/John             <---- Nested Label under Team A
-Team A/Kerry            <--------|
-Team A/Katy
+Team A                  <---- Label\n
+Team A/John             <---- Nested Label under Team A\n
+Team A/Kerry            <--------|\n
+Team A/Katy\n
 Team B                  <--- Label
 Team B/Priscilla        <---- Nested Label under Team B
 Team B/Johny
