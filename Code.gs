@@ -79,10 +79,10 @@ function TeamB()
 
 function TeamC()
 {
-  label_count("Background Team");
+  label_count("Team C");
 }
 
 function onOpen() {  
   var sheet = SpreadsheetApp.getActiveSpreadsheet();
-  sheet.addMenu("Progress Tracker", [{name: "Team A Status", functionName: "TeamA"},{name: "Team B Status", functionName: "TeamB"},{name: "Background Team Status", functionName: "TeamC"}]);
+  sheet.addMenu("Progress Tracker", [{name: "Team A Status", functionName: "TeamA"},{name: "Team B Status", functionName: "TeamB"},{name: "Team C Status", functionName: "TeamC"}]);
 }
