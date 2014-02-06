@@ -20,6 +20,12 @@ Team C/Jake<br>
     
 Mails which were read today by each person are considered to be atteneded to. We track these numbers[i.e. Mails Read Today] in this APP.
 
+<bold>Setup:<bold><br>
+Assign Labels as described above.
+Add Sheets in current SpreadSheet by name of Team.
+Edit code to change Team names [Default: Team A, Team B, Team C (three teams)]
+Setup trigger for timedDBUpdate() just after midnight.
+
 Design Document <br>
 
 Usage:<br>
